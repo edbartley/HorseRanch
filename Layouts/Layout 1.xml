@@ -15,7 +15,7 @@
     <layers>
         <layer name="Layer 0" sid="9323869874827051">
             <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
+            <background-color>153,102,51</background-color>
             <transparent>0</transparent>
             <parallax>
                 <x>1</x>
@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="6">
+                <instance type="Grass" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -40,8 +40,8 @@
                         <x>120.5</x>
                         <y>88</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="7">
+                <instance type="Grass" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -62,8 +62,8 @@
                         <x>447</x>
                         <y>335</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -71,7 +71,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="8">
+                <instance type="Grass" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -84,8 +84,8 @@
                         <x>283</x>
                         <y>168</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -93,7 +93,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="9">
+                <instance type="Grass" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -106,8 +106,8 @@
                         <x>220</x>
                         <y>323</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -115,7 +115,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="10">
+                <instance type="Grass" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -128,8 +128,8 @@
                         <x>415</x>
                         <y>215</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -137,7 +137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="11">
+                <instance type="Grass" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -150,8 +150,8 @@
                         <x>151</x>
                         <y>222</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -159,7 +159,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="12">
+                <instance type="Grass" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -172,8 +172,8 @@
                         <x>283</x>
                         <y>245</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -181,7 +181,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="13">
+                <instance type="Grass" uid="13">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -194,8 +194,8 @@
                         <x>585</x>
                         <y>246</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -203,7 +203,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="14">
+                <instance type="Grass" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -216,8 +216,8 @@
                         <x>375</x>
                         <y>289</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -225,7 +225,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="15">
+                <instance type="Grass" uid="15">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -238,8 +238,8 @@
                         <x>128</x>
                         <y>157</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -247,7 +247,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="16">
+                <instance type="Grass" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -260,8 +260,8 @@
                         <x>346</x>
                         <y>87</y>
                         <z>0</z>
-                        <width>-245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -269,7 +269,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="17">
+                <instance type="Grass" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -282,8 +282,8 @@
                         <x>225</x>
                         <y>393</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -291,7 +291,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="18">
+                <instance type="Grass" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -304,8 +304,8 @@
                         <x>608</x>
                         <y>335</y>
                         <z>0</z>
-                        <width>245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -313,7 +313,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="19">
+                <instance type="Grass" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -326,8 +326,8 @@
                         <x>512</x>
                         <y>71</y>
                         <z>0</z>
-                        <width>-245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -335,7 +335,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="20">
+                <instance type="Grass" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -348,8 +348,8 @@
                         <x>81</x>
                         <y>342</y>
                         <z>0</z>
-                        <width>-245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -357,7 +357,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="21">
+                <instance type="Grass" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -370,8 +370,8 @@
                         <x>517</x>
                         <y>153</y>
                         <z>0</z>
-                        <width>-245</width>
-                        <height>150</height>
+                        <width>256</width>
+                        <height>176</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -379,7 +379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="22">
+                <instance type="Fence" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -392,8 +392,8 @@
                         <x>61</x>
                         <y>59</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -401,7 +401,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="23">
+                <instance type="Fence" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -414,8 +414,8 @@
                         <x>207</x>
                         <y>61</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="24">
+                <instance type="Fence" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -436,8 +436,8 @@
                         <x>369</x>
                         <y>59</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -445,7 +445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="25">
+                <instance type="Fence" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -458,8 +458,8 @@
                         <x>496</x>
                         <y>65</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -467,7 +467,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="26">
+                <instance type="Fence" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -480,8 +480,8 @@
                         <x>567</x>
                         <y>217</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -489,7 +489,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="27">
+                <instance type="Fence" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -502,8 +502,8 @@
                         <x>578</x>
                         <y>384</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -511,7 +511,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="28">
+                <instance type="Fence" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -524,8 +524,8 @@
                         <x>447</x>
                         <y>396</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -533,7 +533,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="29">
+                <instance type="Fence" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -546,8 +546,8 @@
                         <x>318</x>
                         <y>396</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -555,7 +555,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="30">
+                <instance type="Fence" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -568,8 +568,8 @@
                         <x>171</x>
                         <y>386</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -577,7 +577,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="31">
+                <instance type="Fence" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -590,8 +590,8 @@
                         <x>68</x>
                         <y>340</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -599,7 +599,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="32">
+                <instance type="Fence" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -612,8 +612,8 @@
                         <x>62</x>
                         <y>192</y>
                         <z>0</z>
-                        <width>-27</width>
-                        <height>119</height>
+                        <width>14</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -634,10 +634,10 @@
                         <x>142</x>
                         <y>259</y>
                         <z>0</z>
-                        <width>112</width>
-                        <height>80</height>
+                        <width>128</width>
+                        <height>110</height>
                         <depth>0</depth>
-                        <hotspotX>0.500745177</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -653,15 +653,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>353</x>
-                        <y>451</y>
+                        <x>317.999938965</x>
+                        <y>453.04083252</y>
                         <z>0</z>
-                        <width>85</width>
-                        <height>736</height>
+                        <width>84</width>
+                        <height>655</height>
                         <depth>0</depth>
-                        <hotspotX>0.50234741</hotspotX>
+                        <hotspotX>0.503401339</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>1.561182141</angle>
+                        <angle>1.570812345</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -676,10 +676,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>309</x>
-                        <y>211</y>
+                        <y>177</y>
                         <z>0</z>
-                        <width>286</width>
-                        <height>185</height>
+                        <width>256</width>
+                        <height>274</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
