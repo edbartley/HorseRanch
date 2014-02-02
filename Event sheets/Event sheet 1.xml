@@ -2,5 +2,17 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="306313144788177">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5138551404812181" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="9516331094177222" type="Apple">
+                    <param id="0" name="Width">44+apple.sine.Value</param>
+                    <param id="1" name="Height">64+apple.sine.Value</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
