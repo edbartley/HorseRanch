@@ -14,5 +14,22 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2881791205170783">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="7734410872257615" type="Apple" />
+                <condition id="1" name="Is overlapping another object" sid="7382145770509245" type="Apple">
+                    <param id="0" name="Object">feeder</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3077859620056888" type="Apple" />
+                <action id="-3" name="Create object" sid="5656643352680681" type="System">
+                    <param id="0" name="Object to create">Apple</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">88</param>
+                    <param id="3" name="Y">442</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
