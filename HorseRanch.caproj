@@ -10,17 +10,18 @@
     <unique-id>3om4fqck6p5en</unique-id>
     <saved-with-version>15802</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
     </used-behaviors>
@@ -162,6 +163,7 @@
             <instance-variables>
                 <instance-variable name="counta" sid="5769047965140042" type="number" />
                 <instance-variable name="dir" sid="2454870959335935" type="number" />
+                <instance-variable name="isFading" sid="1908083608014657" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="858905819606686">
@@ -171,6 +173,12 @@
                     <behavior id="Timer" />
                 </behavior-type>
                 <behavior-type name="Sine" sid="5820796832377399">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="5386917151828212">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="7652616604602204">
                     <behavior id="Sin" />
                 </behavior-type>
             </behaviors>

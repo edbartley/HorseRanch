@@ -6,6 +6,11 @@
         <event-block sid="306313144788177">
             <conditions>
                 <condition id="-1" name="Every tick" sid="5138551404812181" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="571488211918618" type="Apple">
+                    <param id="0" name="Instance variable">isFading</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="9516331094177222" type="Apple">
@@ -22,12 +27,51 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="3077859620056888" type="Apple" />
+                <action behavior="Fade" id="1" name="Start fade" sid="3077859620056888" type="Apple" />
+                <action id="-10" name="Set value" sid="2718058037867699" type="Apple">
+                    <param id="0" name="Instance variable">isFading</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="7281512456502143" type="Apple">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Sine2" id="0" name="Set active" sid="7769226752951842" type="Apple">
+                    <param id="0" name="State">1</param>
+                </action>
                 <action id="-3" name="Create object" sid="5656643352680681" type="System">
                     <param id="0" name="Object to create">Apple</param>
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="X">88</param>
                     <param id="3" name="Y">442</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2594893921343186">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8231341043572077" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="2687048433444284" type="Apple">
+                    <param id="0" name="Instance variable">isFading</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="3631026483713047" type="Apple">
+                    <param id="0" name="Width">44+apple.sine2.Value</param>
+                    <param id="1" name="Height">64+apple.sine2.Value</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897528595729342">
+            <conditions>
+                <condition id="-18" name="On created" sid="1405103611959215" type="Apple" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="5452070861756312" type="Apple">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Sine2" id="0" name="Set active" sid="3015884512805773" type="Apple">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
