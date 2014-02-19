@@ -73,6 +73,9 @@
                 <action behavior="Sine2" id="0" name="Set active" sid="3015884512805773" type="Apple">
                     <param id="0" name="State">0</param>
                 </action>
+                <action id="5" name="Set frame" sid="2995784418423913" type="Apple">
+                    <param id="0" name="Frame number">random(apple.AnimationFrameCount)</param>
+                </action>
             </actions>
         </event-block>
     </events>
