@@ -746,8 +746,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>94</x>
-                        <y>450</y>
+                        <x>-37</x>
+                        <y>434</y>
                         <z>0</z>
                         <width>66.493392944</width>
                         <height>85.271621704</height>
@@ -762,6 +762,14 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="bucket" uid="38">
+            <properties>
+                <width>0</width>
+                <height>0</height>
+                <depth>0</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

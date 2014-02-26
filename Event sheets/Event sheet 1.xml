@@ -38,12 +38,6 @@
                 <action behavior="Sine2" id="0" name="Set active" sid="7769226752951842" type="Apple">
                     <param id="0" name="State">1</param>
                 </action>
-                <action id="-3" name="Create object" sid="5656643352680681" type="System">
-                    <param id="0" name="Object to create">Apple</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">88</param>
-                    <param id="3" name="Y">442</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="2594893921343186">
@@ -76,6 +70,48 @@
                 <action id="5" name="Set frame" sid="2995784418423913" type="Apple">
                     <param id="0" name="Frame number">random(apple.AnimationFrameCount)</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="86479939142916">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="481595333422473" type="System" />
+                <condition behavior="DragDrop" id="0" inverted="1" name="Is dragging" sid="3673907784654935" type="Apple" />
+                <condition id="-7" name="Compare instance variable" sid="691596846970678" type="Apple">
+                    <param id="0" name="Instance variable">isFading</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="5109360434661667" type="Apple">
+                    <param id="0" name="Distance">Apple.dt*15</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6648962928476929">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="8293504642469143" type="System">
+                    <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1543082596262141" type="System">
+                    <param id="0" name="Object to create">Apple</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">-37</param>
+                    <param id="3" name="Y">434</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="45329839635253">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="4129584596304786" type="Apple">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">WindowWidth</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="127651667649722" type="Apple" />
             </actions>
         </event-block>
     </events>
