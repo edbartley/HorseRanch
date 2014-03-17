@@ -81,6 +81,9 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="1" name="Is overlapping another object" sid="9055318398922519" type="Apple">
+                    <param id="0" name="Object">belt</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-17" name="Move forward" sid="5109360434661667" type="Apple">
@@ -98,8 +101,8 @@
                 <action id="-3" name="Create object" sid="1543082596262141" type="System">
                     <param id="0" name="Object to create">Apple</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">-37</param>
-                    <param id="3" name="Y">434</param>
+                    <param id="2" name="X">-38</param>
+                    <param id="3" name="Y">450</param>
                 </action>
             </actions>
         </event-block>
